@@ -1,0 +1,120 @@
+.sidePanel {
+    width: 0;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    height: 100%;
+    background-color:#519ec4;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #519ec4;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 3% 3% 3% 3%;
+    background-color: #54a3ca;
+}
+
+li a {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+    color: #e5ece4;
+    display: block;
+}
+
+li a:hover {
+    color: black;
+}
+
+.openButton {
+    width: 65px; 
+    height: 55px;
+    background-color: rgb(62, 146, 255);
+    border-radius: 50%;
+}
+
+.openButton:active { 
+    transform: scale(0.98); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.10); 
+} 
+
+#closePane {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.closeButton {
+    margin-left: 85%;
+    color:white !important;
+    font-size: 100%;
+    background-color: rgb(77, 74, 74);
+}
+
+.removeItem {
+    margin-left: 85%;
+    color:white !important;
+    font-size: 100%;
+    background-color: transparent;
+    border: transparent;
+}
+
+.hideNotificationCount {
+    display: none !important;
+}
+
+#notificationCount {
+    position: absolute;
+    border-radius: 50%;
+    width: 25px;
+    background-color: red;
+    color: white;
+}
+
+#important {
+    border-radius: 50%;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.active {
+    width: 300px;
+}
+
+.ui-dialog {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(35, 134, 226);
+}
+
+.ui-dialog-content {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.ui-dialog-titlebar-close {
+    display: none;
+    padding-bottom: 2%;
+  }
+
+.ui-dialog-buttonpane {
+    padding-left: 42%;
+    padding-bottom: 3%;  
+  }
+
+.ui-button {
+    background-color: white;
+  }
